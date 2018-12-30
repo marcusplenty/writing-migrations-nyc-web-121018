@@ -1,6 +1,6 @@
-class Help < ActiveRecord::Migrat
+class Help < ActiveRecord::Migration[5.1]
   def change
-    add_column :students
+    add_column :students, :grade, 
     
   end 
 end 
